@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 18px;
+}
+
+:root{
+    --icon-color: #356554;
+    --darkgreen: #234338;
+    --subtle-dark-green: #468671;
+    --darkgreen2: #2C5446;
+    --light-green: #CBEA7B;
+    --lighter-green: #F6FBE9;
+    --body-color: #FAFDF2;
+    --stroke-color: #E5F5BD;
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+.header{
+    background-color: var(--darkgreen);
+}
+
+.header-section1-content{
+    background-color: var(--darkgreen2);
+}
+
+.text-light-success{
+    color: var(--light-green);
+}
+
+.bg-light-success{
+    background-color: var(--light-green);
+}
+
+.bg-lighter-green{
+    background-color: var(--lighter-green);
+}
+
+.text-green2{
+    color: var(--darkgreen2);
+}
+
+.urbanist{
+    font-family: 'Urbanist';
+}
